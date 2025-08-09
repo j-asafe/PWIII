@@ -1,0 +1,137 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+  padding: 20px;
+}
+
+header#cabecalho {
+  background-color: #004aad;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header #logo h1 {
+  margin-bottom: 10px;
+  font-size: 2em;
+}
+
+header img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+h1 {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  color: #004aad;
+  text-align: center;
+}
+
+/* Estilo da tabela sem bordas */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  margin-bottom: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+table th,
+table td {
+  padding: 12px;
+  text-align: center;
+  /* Removemos as bordas aqui */
+}
+
+table th {
+  background-color: #004aad;
+  color: white;
+}
+
+table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Footer */
+footer.footer {
+  background-color: #222;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-content a {
+  color: #ddd;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.footer-content a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+.form-section {
+  max-width: 400px;
+  margin: 40px auto;
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  text-align: center;
+}
+
+.form-section h2 {
+  color: #004aad;
+  margin-bottom: 20px;
+  font-size: 1.2em;
+}
+
+.formulario label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #333;
+  text-align: left;
+}
+
+.formulario input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.formulario input:focus {
+  outline: none;
+  background-color: #e6f0ff;
+}
+
+.formulario button {
+  width: 100%;
+  padding: 12px;
+  background-color: #004aad;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.formulario button:hover {
+  background-color: #003080;
+}
+
